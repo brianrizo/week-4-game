@@ -1,0 +1,88 @@
+
+body {
+	background-image: url('../images/zangief-stage.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+audio {
+	display:none;
+}
+
+h2 {
+	font-family: Georgia;
+}
+
+.fighters {
+	width: 145px;
+	height: 125px;
+}
+
+.character {
+	border-style: solid;
+	border-radius: 10%;
+	border-color: black;
+	background-color: white;
+	font-family: serif;
+	color: black;
+}
+.character:hover{
+	background-color: orange;
+	color: white;
+}
+
+.hero {
+	background-color: yellow;
+}
+
+.fighting {
+	background-color: blue;
+}
+
+#player-select {
+	background-color: red;
+	opacity: .7;
+	width: 750px;
+	height: 250px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.theCenter {
+	margin: 0 auto;
+	padding: 30px;
+}
+
+#attack {
+	font-family: Georgia;
+	font-size: 26px;
+}
+
+#restart {
+	font-family: Georgia;
+	font-size: 22px;
+}
+
+#process {
+	background-color: white;
+	font-family: Georgia, sans-serif;
+
+}
+
+#winsloses {
+	background-color: red;
+	color: white;
+	font-family: sans-serif;
+	float: left;
+	margin-right: 50px;
+	margin-top: 20px;
+	padding: 20px;
+
+}
+
+#intro {
+	color: white;
+	display: inline-block;
+	margin-left: 400px;
+}
